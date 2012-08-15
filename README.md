@@ -1,4 +1,4 @@
-# Experimental / Unreleased
+# Not Ready for Review / Unreleased
 
 # commandful
 
@@ -6,9 +6,9 @@ Reflects [Director](http://github.com/flatiron/director) CLI ( Command Line Inte
 
 # Explanation
 
-The commandful project removes the process of writing boilerplate CLI code for interacting with  [resourceful](http://github.com/flatiron/resourceful) resources. commandful uses <a href="http://en.wikipedia.org/wiki/Reflection_(computer_programming)">reflection</a> to reflect a [Director](http://github.com/flatiron/director) CLI router that maps all routes needed to perform basic [CRUD](http://en.wikipedia.org/wiki/Create,_read,_update_and_delete) operations with [resourceful](http://github.com/flatiron/resourceful) resources. commandful also has the ability to expose additional arbitrary <a href="#remote">remote resource methods</a> in the routing map.
+The commandful project removes the process of writing boilerplate CLI code for interacting with  [resourceful](http://github.com/flatiron/resourceful) resources. commandful uses <a href="http://en.wikipedia.org/wiki/Reflection_(computer_programming)">reflection</a> to reflect a [Director](http://github.com/flatiron/director) CLI router that maps all routes needed to perform basic [CRUD](http://en.wikipedia.org/wiki/Create,_read,_update_and_delete) operations with [resourceful](http://github.com/flatiron/resourceful) resources. commandful also has the ability to expose additional arbitrary <a href="#remote">remote resource methods</a>.
 
-Through the removal of this boilerplate code, commandful creates a robust, standardized, and re-usable CLI for any [resourceful](http://github.com/flatiron/resourceful) resource.
+Through the removal of this boilerplate code, commandful creates a robust, standardized, and re-usable CLI experience for any [resourceful](http://github.com/flatiron/resourceful) resource.
 
 # Installation
 
