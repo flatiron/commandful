@@ -20,9 +20,18 @@ var app = new flatiron.App;
 app.use(flatiron.plugins.cli);
 
 //
+// Use the resourceful plugin and attach some resources
+//
+app.use(flatiron.plugins.resourceful);
+app.resources = {
+  Creature: fixtures.Creature,
+  Album: fixtures.Album
+};
+
+//
 // Extend the app's router with commandful
 //
-commandful.extendRouter(app.router, [fixtures.Creature, fixtures.Album]);
+app.use(commandful);
 
 app.start(function (err) {
   if (err) {
