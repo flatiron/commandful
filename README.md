@@ -49,13 +49,16 @@ TODO:
 
 ```bash
 node bin/simple creature
+```
 
 ```bash
 node bin/simple creature create
 ```
+
 ```bash
 node bin/simple creature show
 ```
+
 ```bash
 node bin/simple creature list
 ```
