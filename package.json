@@ -20,7 +20,8 @@
     "cliff": "~0.1.8"
   },
   "devDependencies": {
-    "vows": "0.6.x"
+    "vows": "0.6.x",
+    "flatiron": "0.2.x"
   },
   "bundleDependencies": [
     "resourceful"
