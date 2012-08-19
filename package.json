@@ -3,7 +3,10 @@
   "description": "creates command line interfaces from resourceful resources",
   "author": "Nodejitsu Inc. <info@nodejitsu.com>",
   "maintainers": [
-    { "name": "Marak Squires", "email": "marak@nodejitsu.com" }
+    {
+      "name": "Marak Squires",
+      "email": "marak@nodejitsu.com"
+    }
   ],
   "version": "0.1.0",
   "main": "./lib/commandful",
@@ -11,12 +14,18 @@
     "director": "*",
     "resourceful": "0.3.x",
     "utile": "0.1.x",
-    "winston": "*"
+    "winston": "*",
+    "prompt": "~0.2.6",
+    "colors": "~0.6.0-1",
+    "cliff": "~0.1.8"
   },
   "devDependencies": {
     "vows": "0.6.x",
+    "flatiron": "0.2.x"
   },
-  "bundleDependencies": ["resourceful"],
+  "bundleDependencies": [
+    "resourceful"
+  ],
   "optionalDependencies": {},
   "engines": {
     "node": "0.6.x || 0.8.x"
