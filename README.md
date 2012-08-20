@@ -150,4 +150,7 @@ TODO
 
 # TODO
 
+ - Add ability for relational resources
+ - Add ability to execute remote methods
+ - Add ability to make controller swappable. Currently, it's bind to a resourceful resource. Should be able to work with remote APIs.
  - Add Tests

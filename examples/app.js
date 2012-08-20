@@ -25,8 +25,7 @@ app.use(flatiron.plugins.cli);
 app.use(flatiron.plugins.resourceful);
 
 app.resources = {
-  Creature: fixtures.Creature,
-  Album: fixtures.Album
+  Creature: fixtures.Creature
 };
 
 //
