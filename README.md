@@ -10,6 +10,10 @@ The commandful project removes the process of writing boilerplate CLI code for i
 
 Through the removal of this boilerplate code, commandful creates a robust, standardized, and re-usable CLI experience for any [resourceful](http://github.com/flatiron/resourceful) resource.
 
+## See Also:
+
+ - [cli-config](http://github.com/flatiron/cli-config) `config set` and `config get` plugin
+
 # Installation
 
      npm install commandful
@@ -77,7 +81,7 @@ Here is a simple code example of using commandful with `Albums` and `Songs`: <a 
 <a name"remote"></a>
 ## Exposing Arbitrary Resource Methods
 
-In many cases, you'll want to expose additional methods on a Resource on the CLI outside of the included CRUD operations: `create`, `all`, `get`, `update`, `destroy`.
+In many cases, you'll want to expose additional methods on a Resource on the CLI outside of the included CRUD operations: `create`, `list`, `get`, `update`, `destroy`.
 
 commandful has built in support for easily exposing arbitrary remote resource methods.
 
