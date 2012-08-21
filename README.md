@@ -20,6 +20,20 @@ Through the removal of this boilerplate code, commandful creates a robust, stand
 
 # Usage
 
+## Define resource(s)
+
+```js
+
+var resourceful = require('resourceful'),
+    Creature    = resourceful.define('creature');
+
+Creature.property('type', String, { default: "dragon" });
+Creature.property('life', Number, { default: 10, min: 0, max: 20 });
+
+```
+
+*[additional API documentation for defining resources](http://github.com/flatiron/resourceful)*
+
 ## As a Flatiron Plugin
 
 To use commandful as a <a href="http://github.com/flatiron/flatiron">Flatiron</a> plugin you will have to:
