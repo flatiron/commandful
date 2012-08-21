@@ -154,3 +154,4 @@ TODO
  - Add ability to execute remote methods
  - Add ability to make controller swappable. Currently, it's bind to a resourceful resource. Should be able to work with remote APIs.
  - Add Tests
+ - Add better error handling ( Resourceful should return more generic errors, looks like couchdb response is being piped in )
