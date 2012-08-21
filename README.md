@@ -10,13 +10,13 @@ The commandful project removes the process of writing boilerplate CLI code for i
 
 Through the removal of this boilerplate code, commandful creates a robust, standardized, and re-usable CLI experience for any [resourceful](http://github.com/flatiron/resourceful) resource.
 
-## See Also:
-
- - [cli-config](http://github.com/flatiron/cli-config) `config set` and `config get` plugin
-
 # Installation
 
      npm install commandful
+
+## See Also:
+
+- [cli-config](http://github.com/flatiron/cli-config) Flatiron plugin for `config set` and `config get` commands
 
 # Usage
 
