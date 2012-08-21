@@ -66,18 +66,6 @@ node bin/simple creature show
 ```bash
 node bin/simple creature list
 ```
-
-## Relational Resources
-
-To define relational data in commandful you will have to:
-
- - Define the relationship in the resource itself using the resourceful `Resource.parent()` API
- - Create a new CLI based on the resource(s)
-
-commandful will then properly reflect the relational properties of your resources into a CLI.
-
-Here is a simple code example of using commandful with `Albums` and `Songs`: <a href="https://github.com/flatiron/commandful/blob/master/examples/simple.js">https://github.com/flatiron/commandful/blob/master/examples/simple.js</a>
-
 <a name"remote"></a>
 ## Exposing Arbitrary Resource Methods
 
@@ -105,12 +93,6 @@ It's easy as that! By setting the `feed` method to remote, the following events 
 ```bash
 node bin/simple creature feed
 ```
-
-## Resource Security
-
-There are several ways to provide security and authorization for accessing resource methods exposed with commandful. The recommended pattern for authorization is to use resourceful's ability for `before` and `after` hooks. In these hooks, you can add additional business logic to restrict access to the resource's methods. 
-
-**TL;DR; For security and authorization, you should use resourceful's `before` and `after` hooks.**
 
 ## CLI Customization
 
@@ -142,6 +124,17 @@ Like most of Flatiron's reflection libraries, [commandful](http://github.com/fla
 Reflection is *highly* encouraged, but most definitely **optional**.
 
 
+## Resource Security
+
+There are several ways to provide security and authorization for accessing resource methods exposed with commandful. The recommended pattern for authorization is to use resourceful's ability for `before` and `after` hooks. In these hooks, you can add additional business logic to restrict access to the resource's methods. 
+
+**TL;DR; For security and authorization, you should use resourceful's `before` and `after` hooks.**
+
+
+## Relational Resources
+
+Relational resource reflection isn't yet supported in commandful. It will be soon.
+
 # Tests
 
 TODO
@@ -151,7 +144,6 @@ TODO
 # TODO
 
  - Add ability for relational resources
- - Add ability to execute remote methods
- - Add ability to make controller swappable. Currently, it's bind to a resourceful resource. Should be able to work with remote APIs.
+ - Add ability to make controller swappable. Currently, it's bound directly to a resourceful resource. Should be able to work with remote API servers.
  - Add Tests
  - Add better error handling ( Resourceful should return more generic errors, looks like couchdb response is being piped in )
