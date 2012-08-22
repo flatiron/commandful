@@ -37,7 +37,7 @@ fixtures.Creature = resourceful.define('creature', function () {
       }
       var life = creature.life + 1;
       self.update(_id, { life: life }, function(err, result){
-        callback(null, 'I have been fed my life is: ' + result.life);
+        callback(null, result.id + ' has been fed. life is: ' + result.life);
       });
     });
   }
@@ -50,7 +50,7 @@ fixtures.Creature = resourceful.define('creature', function () {
       }
       var life = creature.life - 1;
       self.update(_id, { life: life }, function(err, result){
-        callback(null, 'I have been hit my life is: ' + result.life);
+        callback(null, result.id + ' has been hit. life is: ' + result.life);
       });
     });
   }
