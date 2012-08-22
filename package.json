@@ -1,6 +1,6 @@
 {
   "name": "commandful",
-  "description": "creates command line interfaces from resourceful resources",
+  "description": "reflects command line interfaces from resourceful resources",
   "author": "Nodejitsu Inc. <info@nodejitsu.com>",
   "maintainers": [
     {
@@ -8,7 +8,7 @@
       "email": "marak@nodejitsu.com"
     }
   ],
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "./lib/commandful",
   "dependencies": {
     "director": "*",
