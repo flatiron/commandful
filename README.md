@@ -158,6 +158,6 @@ TODO
 # TODO
 
  - Add ability for relational resources
- - Add ability to make controller swappable. Currently, it's bound directly to a resourceful resource. Should be able to work with remote API servers.
  - Add Tests
+ - Add better support for connecting API clients to resources ( for work with remote API servers )
  - Add better error handling ( Resourceful should return more generic errors, looks like couchdb response is being piped in )
