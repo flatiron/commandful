@@ -1,5 +1,3 @@
-# Not Ready for Review / Unreleased
-
 # commandful
 
 Reflects [Director](http://github.com/flatiron/director) CLI ( [Command Line Interfaces](http://en.wikipedia.org/wiki/Command-line_interface) ) Routers from [resourceful](http://github.com/flatiron/resourceful) resources. Can be used as a stand-alone module or as a [Flatiron](http://github.com/flatiron/) plugin.
@@ -118,27 +116,15 @@ If you need to override a generated route, or create an ad-hoc route, or make an
 
 **customize a reflected router interface:**
 
-**TODO:**
-
 ```js
-app.router.get('/', function(){
-  this.res.end('home page');
+app.router.on('foo', function() {
+  console.log('custom command');
 });
-
-//
-// Overrides `/creature/larry` but won't override,
-// any other `/creature/:id` captures.
-//
-app.router.get('/creatures/larry', function(){
-  this.res.end('larry is special!');
-});
-
 ```
 
 Like most of Flatiron's reflection libraries, [commandful](http://github.com/flatiron/commandful) is built to solve 90% of use-cases. If you hit a case where commandful is causing a problem, you can simply drop into `Director`. 
 
 Reflection is *highly* encouraged, but most definitely **optional**.
-
 
 ## Resource Security
 
