@@ -14,6 +14,8 @@ Through the removal of this boilerplate code, commandful creates a robust, stand
 
      npm install commandful
 
+<img src="https://raw.github.com/flatiron/commandful/master/assets/root.png"></img>
+
 ## See Also:
 
 - [cli-config](http://github.com/flatiron/cli-config) Flatiron plugin for `config set` and `config get` commands
@@ -66,20 +68,20 @@ TODO:
 **Example:**
 
 ```bash
-node bin/simple creature
-```
-
-```bash
 node bin/simple creature create
 ```
+<img src="https://raw.github.com/flatiron/commandful/master/assets/create.png"></img>
 
 ```bash
 node bin/simple creature show
 ```
+<img src="https://raw.github.com/flatiron/commandful/master/assets/show.png"></img>
 
 ```bash
-node bin/simple creature list
+node bin/simple creature edit
 ```
+<img src="https://raw.github.com/flatiron/commandful/master/assets/edit.png"></img>
+
 <a name"remote"></a>
 ## Exposing Arbitrary Resource Methods
 
