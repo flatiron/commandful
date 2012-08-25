@@ -132,11 +132,6 @@ There are several ways to provide security and authorization for accessing resou
 
 **TL;DR; For security and authorization, you should use resourceful's `before` and `after` hooks.**
 
-
-## Relational Resources
-
-Relational resource reflection isn't yet supported in commandful. It will be soon.
-
 # Tests
 
 TODO

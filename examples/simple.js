@@ -11,7 +11,7 @@ var fixtures    = require('../test/fixtures'),
 //
 // Create a new command line on the defined resources
 //
-var cli = commandful.createRouter([fixtures.Creature]);
+var cli = commandful.createRouter([fixtures.Creature, fixtures.Album, fixtures.Song]);
 //
 // Dispatch argv on all routes
 //
